@@ -5,8 +5,8 @@ using System.Threading.Tasks;
 
 namespace Shop.Web.Data.Entities
 {
-    public interface IEntity
+    public class Country : IEntity
     {
-        int Id { get; set; }
+        public int Id { get ; set ; }
     }
 }
