@@ -4,7 +4,13 @@ using System.Text;
 
 namespace Shop.UIForms.ViewModels
 {
-    class MainViewModel
+    public class MainViewModel
     {
+        public LoginViewModel Login { get; set; }
+
+        public MainViewModel()
+        {
+            this.Login = new LoginViewModel();
+        }
     }
 }
